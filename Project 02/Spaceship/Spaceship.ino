@@ -7,6 +7,9 @@ void setup() {
   pinMode(3, OUTPUT); // Green Led
   pinMode(4, OUTPUT); // Red Led  
   pinMode(5, OUTPUT); // Red Led  
+
+  pinMode(13, OUTPUT);
+  digitalWrite(13, LOW); // Switch onboard Led off
 }
 
 void loop() {
