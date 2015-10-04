@@ -28,5 +28,11 @@ void loop() {
     digitalWrite(3, LOW); // green LED
     digitalWrite(4, HIGH); // red LED
     digitalWrite(5, HIGH); // red LED
+
+    delay(500);
+
+    digitalWrite(4, LOW); // red LED
+    digitalWrite(5, LOW); // red LED
+    delay(500);
   }
 }
